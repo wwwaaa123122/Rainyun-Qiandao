@@ -1,7 +1,7 @@
 # Rainyun-Qiandao-V2 (Selenium)
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/chizw/Rainyun-Qiandao/rainyun-sign.yml?style=flat-square)
-![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg?style=flat-square)
+![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg?style=flat-square)
 ![License](https://img.shields.io/badge/license-GPL%20v3.0-green.svg?style=flat-square)
 ![GitHub Stars](https://img.shields.io/github/stars/chizw/Rainyun-Qiandao?style=flat-square)
 ![GitHub Forks](https://img.shields.io/github/stars/chizw/Rainyun-Qiandao?style=flat-square)
@@ -46,12 +46,12 @@ Rainyun-Qiandao-V2 是一个基于 Selenium 和 ICR（Image Captcha Recognition�
 
 ## 技术栈
 
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-4.27+-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.9+-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![Chrome](https://img.shields.io/badge/Chrome-Latest-4285F4?style=flat-square&logo=google-chrome&logoColor=white)
 
-- Python 3.9+
+- Python 3.12+
 - Selenium WebDriver 4.27+
 - ICR 验证码识别模块（旋转分析+模板匹配）
 - OpenCV 图像处理
@@ -61,9 +61,9 @@ Rainyun-Qiandao-V2 是一个基于 Selenium 和 ICR（Image Captcha Recognition�
 
 ### 1. 环境要求
 
-![Requirements](https://img.shields.io/badge/requirements-Python%203.9%2B%20Chrome-blue.svg?style=flat-square)
+![Requirements](https://img.shields.io/badge/requirements-Python%203.12%2B%20Chrome-blue.svg?style=flat-square)
 
-- Python 3.9 或更高版本
+- Python 3.12 或更高版本
 - Google Chrome 浏览器
 
 ### 2. 克隆项目
@@ -266,7 +266,7 @@ ICR 模块使用旋转分析和模板匹配算法，识别率较高。脚本会�
 
 ### 4. 依赖安装失败
 
-确保 Python 版本为 3.9+，使用以下命令安装依赖：
+确保 Python 版本为 3.12+，使用以下命令安装依赖：
 
 ```bash
 python -m pip install --upgrade pip
